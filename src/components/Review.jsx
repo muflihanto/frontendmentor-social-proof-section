@@ -4,7 +4,7 @@ export default function Review({ stars, from }) {
   for (let i = 0; i < stars; i++) {
     starsElement.push(
       <img
-        src="/icon-star.svg"
+        src="./icon-star.svg"
         alt="stars"
         key={i}
       />
