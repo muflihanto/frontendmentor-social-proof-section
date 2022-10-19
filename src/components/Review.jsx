@@ -12,9 +12,9 @@ export default function Review({ stars, from }) {
   }
 
   return (
-    <div className="review text-center pt-[16px] pb-[10px] bg-base-100 mb-4 rounded-md group">
-      <div className="icons flex justify-center gap-2">{starsElement}</div>
-      <p className="group-first:ml-2 font-bold text-primary-magenta text-[17px] mt-[10px]">{`Rated ${stars} Stars in ${from}`}</p>
+    <div className="review group">
+      <div className="icons xl:group-first:mx-[calc(32/1440*100vw)] xl:group-last:ml-[calc(30/1440*100vw)]">{starsElement}</div>
+      <p className="group-first:ml-2 xl:group-first:ml-0 xl:group-first:mb-[5px] xl:group-last:mt-[5px]">{`Rated ${stars} Stars in ${from}`}</p>
     </div>
   );
 }
