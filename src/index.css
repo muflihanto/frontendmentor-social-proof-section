@@ -17,7 +17,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("./bg-pattern-top-desktop.svg"), url("./bg-pattern-bottom-desktop.svg");
+  background: url("../bg-pattern-top-desktop.svg"), url("../bg-pattern-bottom-desktop.svg");
   background-size: calc(584 / 1440 * 100vw) calc(362 / 800 * 100vh), calc(1084 / 1440 * 100vw) calc(672 / 800 * 100vh);
   background-repeat: no-repeat, no-repeat;
   background-position: top left, bottom right;
@@ -26,7 +26,7 @@ html {
 
 @media (orientation: portrait) or (max-width: 375px) {
   .App::before {
-    background: url("./bg-pattern-top-mobile.svg"), url("./bg-pattern-bottom-mobile.svg");
+    background: url("../bg-pattern-top-mobile.svg"), url("../bg-pattern-bottom-mobile.svg");
     background-size: 100% calc(232px), 100% calc(500px);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
