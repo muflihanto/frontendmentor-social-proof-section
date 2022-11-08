@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/muflihanto/vite-gh-pages)
-- Live Site URL: [Github Pages](https://muflihanto.github.io/vite-gh-pages/)
+- Solution URL: [Github](https://github.com/muflihanto/frontendmentor-social-proof-section)
+- Live Site URL: [Github Pages](https://muflihanto.github.io/frontendmentor-social-proof-section/)
 
 ## My process
 
